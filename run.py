@@ -43,11 +43,7 @@ def center_text(text):
 
 intro_text = """
     =========================================================
-      AIRDROP ASC
-    =========================================================
-    Credit By       : Airdrop ASC
-    Telegram Channel: @airdropasc
-    Telegram Group  : @autosultan_group
+      NIGHTWALKER
     =========================================================
 """
 

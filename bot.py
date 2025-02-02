@@ -45,20 +45,6 @@ def calculate_change(new_balance, old_balance):
     """Calculate the change in balance."""
     return new_balance - old_balance
 
-def print_banner(stdscr):
-    """Print the banner at a fixed position."""
-    stdscr.addstr(0, 0, "                █████████   █████ ███████████   ██████████   ███████████      ███████    ███████████       █████████    █████████    █████████", curses.color_pair(1))
-    stdscr.addstr(1, 0, "               ███░░░░░███ ░░███ ░░███░░░░░███ ░░███░░░░███ ░░███░░░░░███   ███░░░░░███ ░░███░░░░░███     ███░░░░░███  ███░░░░░███  ███░░░░░███", curses.color_pair(1))
-    stdscr.addstr(2, 0, "              ░███    ░███  ░███  ░███    ░███  ░███   ░░███ ░███    ░███  ███     ░░███ ░███    ░███    ░███    ░███ ░███    ░░░  ███     ░░░", curses.color_pair(1))
-    stdscr.addstr(3, 0, "              ░███████████  ░███  ░██████████   ░███    ░███ ░██████████  ░███      ░███ ░██████████     ░███████████ ░░█████████ ░███         ", curses.color_pair(1))
-    stdscr.addstr(4, 0, "              ░███░░░░░███  ░███  ░███░░░░░███  ░███    ░███ ░███░░░░░███ ░███      ░███ ░███░░░░░░      ░███░░░░░███  ░░░░░░░░███░███         ", curses.color_pair(1))
-    stdscr.addstr(5, 0, "              ░███    ░███  ░███  ░███    ░███  ░███    ███  ░███    ░███ ░░███     ███  ░███            ░███    ░███  ███    ░███░░███     ███", curses.color_pair(1))
-    stdscr.addstr(6, 0, "              █████   █████ █████ █████   █████ ██████████   █████   █████ ░░░███████░   █████           █████   █████░░█████████  ░░█████████", curses.color_pair(1))
-    stdscr.addstr(7, 0, "              ░░░░░   ░░░░░ ░░░░░ ░░░░░   ░░░░░ ░░░░░░░░░░   ░░░░░   ░░░░░    ░░░░░░░    ░░░░░           ░░░░░   ░░░░░  ░░░░░░░░░    ░░░░░░░░░  ", curses.color_pair(1))
-    stdscr.addstr(8, 0, "                                                              ===============================================", curses.color_pair(1))
-    stdscr.addstr(9, 0, "                                                               |   Telegram Channel : @airdropasc          |   ", curses.color_pair(1))
-    stdscr.addstr(10, 0, "                                                               |   Telegram Group   : @autosultan_group    |    ", curses.color_pair(1))
-    stdscr.addstr(11, 0, "                                                              ===============================================", curses.color_pair(1))
 
 def draw_table(stdscr, start_y, start_x, chains_data, brn_balance, brn_change, col_width):
     """Draw the table with chain balances and rewards."""
