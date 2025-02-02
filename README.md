@@ -43,6 +43,8 @@ python3 run.py
 ```
 **Exit Screen: CTRL+AD**
 
+**If RPCs are not working, edit run.py and swap with your alchemy rpcs**
+
 **Reopen Screen: screen -r tbot**
 
 ## Termux & WIndows
@@ -76,3 +78,5 @@ nano privateKeys.py
 ```
 python run.py
 ```
+
+**If RPCs are not working, edit run.py and swap with your alchemy rpcs**
