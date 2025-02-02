@@ -33,7 +33,7 @@ python3 -m pip install -r requirements.txt
 ```
 nano privateKeys.py
 ```
-**Kemudian save `CTRL+XY dan Enter`**
+**To save `CTRL+XY then Enter`**
 ### Run Bot
 ```
 screen -S tbot
@@ -42,6 +42,8 @@ screen -S tbot
 python3 run.py
 ```
 **Exit Screen: CTRL+AD**
+
+**Reopen Screen: screen -r tbot**
 
 ## Termux & WIndows
 ```
@@ -57,7 +59,7 @@ pkg install python
 pkg install git
 ```
 ```
-git clone https://github.com/zamzasalim/t3rn-bot.git
+git clone https://github.com/Dalu26/t3rn-bot.git
 ```
 ```
 cd t3rn-bot
@@ -69,7 +71,7 @@ pip install -r requirements.txt
 ```
 nano privateKeys.py
 ```
-**To save the env variables: `CTRL+XY dan Enter`**
+**To save the env variables: `CTRL+XY then Enter`**
 ### Run bot
 ```
 python run.py
